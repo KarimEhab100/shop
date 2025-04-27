@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>shop4me</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome -->
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yEcfLJbG1HURcKVaD8WrYFJKVtu9F+QvAfvKu48fEwVXtbJ1Yo8H7TT9+M5mOfExVf3+Fk9W5D5D5CB4ZmWk+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- Custom CSS -->
+
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom px-4 py-2 shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold me-4" href="index.html">SHOP<span style="color: brown;font-weight: bold;">4</span>ME</a>
+
+      <!-- Button for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible part -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Men</a></li>
+              <li><a class="dropdown-item" href="#">Women</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="html/products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="html/about.html">About US</a></li>
+        </ul>
+
+        <!-- Search Box (desktop only) -->
+        <form class="d-flex flex-grow-1 mx-4 d-none d-lg-block" role="search">
+          <div class="input-group rounded-pill overflow-hidden w-100 bg-light">
+            <span class="input-group-text bg-transparent border-0">
+              <i class="bi bi-search"></i>
+            </span>
+            <input type="text" class="form-control border-0 bg-transparent" placeholder="Search for products..." />
+          </div>
+        </form>
+
+        <!-- Search Icon (mobile only) -->
+        <div class="d-block d-lg-none mx-2">
+          <a href="#" class="nav-link">
+            <i class="bi bi-search fs-4"></i>
+          </a>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="html/cart.html"><i class="bi bi-cart3 fs-4"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-circle fs-4"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- Navigation Bar -->
+
+    <!--Hero Section -->
+<section class="hero-section pt-5 px-4">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <!-- Left: Text -->
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1 class="display-4 fw-bold custom-font">
+            FIND CLOTHES <br />
+            THAT MATCHES <br />
+            YOUR STYLE
+          </h1>
+          <p class="text-muted mt-3">
+            Browse through our diverse range of meticulously crafted garments, designed
+            to bring out your individuality and cater to your sense of style.
+          </p>
+          <a class="btn btn-dark rounded-pill px-4 py-2 mt-3" href="html/products.html" >Shop Now</a>
+  
+          <!-- Stats -->
+          <div class="d-flex justify-content-between text-center mt-5">
+            <div>
+              <h4 class="fw-bold">200+</h4>
+              <small class="text-muted">International Brands</small>
+            </div>
+            <div>
+              <h4 class="fw-bold">2,000+</h4>
+              <small class="text-muted">High-Quality Products</small>
+            </div>
+            <div>
+              <h4 class="fw-bold">30,000+</h4>
+              <small class="text-muted">Happy Customers</small>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right: Image -->
+        <div class="col-lg-6 text-center ps-5">
+          <img src="../images/panner.png" alt="Fashion Models" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End of Hero Section -->
+ <!-- Brands Section -->
+  <section>
+    <div class="black-sec">
+      <div class="row justify-content-between align-items-center text-center">
+        <img src="../images/1.png" alt="versace" class="col-2">
+        <img src="../images/2.png" alt="zara" class="col-2">
+        <img src="../images/3.png" alt="gucci" class="col-2">
+        <img src="../images/4.png" alt="prada" class="col-2">
+        <img src="../images/5.png" alt="calvin klein" class="col-2">
+      </div>
+    </div>
+  </section>
+ <!--End Brands Section -->
+
+  <!-- Section for Browse by Dress Style -->
+
+  <main class="new-arrivals">
+    <section class=" container ">
+        <h1>NEW ARRIVALS</h1>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=600" alt="T-shirt with Tape Details">
+                </div>
+                <div class="product-info">
+                    <h3>T-shirt with Tape Details</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-text">4.5/5</span>
+                    </div>
+                    <div class="price">
+                        <span class="current-price">$120</span>
+                    </div>
+                    <div class="card-buttons">
+                        <a class="btn-details" href="html/product-details.html">Details</a>
+                        <a class="btn-cart" href="html/cart.html"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.pexels.com/photos/3026282/pexels-photo-3026282.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Skinny Fit Jeans">
+                </div>
+                <div class="product-info">
+                    <h3>Skinny Fit Jeans</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-text">4.5/5</span>
+                    </div>
+                    <div class="price">
+                        <span class="current-price">$240</span>
+                        <span class="original-price">$260</span>
+                        <span class="discount">-20%</span>
+                    </div>
+                    <div class="card-buttons">
+                        <a class="btn-details" href="html/product-details.html">Details</a>
+                        <a class="btn-cart" href="html/cart.html"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=400  " alt="Checkered Shirt">
+                </div>
+                <div class="product-info">
+                    <h3>Checkered Shirt</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-text">4.5/5</span>
+                    </div>
+                    <div class="price">
+                        <span class="current-price">$180</span>
+                    </div>
+                    <div class="card-buttons">
+                        <a class="btn-details" href="html/product-details.html">Details</a>
+                        <a class="btn-cart" href="html/cart.html"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.pexels.com/photos/3782214/pexels-photo-3782214.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sleeve Striped T-shirt">
+                </div>
+                <div class="product-info">
+                    <h3>Sleeve Striped T-shirt</h3>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-text">4.5/5</span>
+                    </div>
+                    <div class="price">
+                        <span class="current-price">$130</span>
+                        <span class="original-price">$160</span>
+                        <span class="discount">-20%</span>
+                    </div>
+                    <div class="card-buttons">
+                        <a class="btn-details" href="html/product-details.html">Details</a>
+                        <a class="btn-cart" href="html/cart.html"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all">
+            <a href="html/products.html">View All</a>
+        </div>
+    </section>
+  </main>
+
+  <!------------****************************************************---------------------->
+  
+  <main class="container my-5">
+    <section class="main my-5 dress-style-section">
+      <h1>BROWSE BY DRESS STYLE</h1>
+        <div class="style-grid">
+            <a href="html/products.html" class="style-card casual">
+                <div class="card-content">
+                    <h2>Casual</h2>
+                    <p class="card-description">Everyday comfortable style</p>
+                </div>
+                <div class="overlay"></div>
+            </a>
+            <a href="html/products.html" class="style-card formal">
+                <div class="card-content">
+                    <h2>Formal</h2>
+                    <p class="card-description">Professional & elegant wear</p>
+                </div>
+                <div class="overlay"></div>
+            </a>
+            <a href="html/products.html" class="style-card party">
+                <div class="card-content">
+                    <h2>Party</h2>
+                    <p class="card-description">Stunning evening looks</p>
+                </div>
+                <div class="overlay"></div>
+            </a>
+            <a href="html/products.html" class="style-card gym">
+                <div class="card-content">
+                    <h2>Gym</h2>
+                    <p class="card-description">Athletic & sportswear</p>
+                </div>
+                <div class="overlay"></div>
+            </a>
+        </div>
+    </section>
+</main>
+
+<!------------****************************************************---------------------->
+<section class="testimonials py-5">
+    <div class="container">
+      <h1 class="text-center mb-5">OUR HAPPY CUSTOMERS</h1>
+  
+      <!-- Carousel باستخدام Bootstrap -->
+      <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- أول شريحة -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center gx-4">
+              <!-- تكرار الآراء هنا -->
+              <div class="col-md-4">
+                <div class="testimonial-card mb-4 shadow">
+                  <!-- Rating -->
+                  <div class="rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+  
+                  <!-- Customer Name and Image -->
+                  <div class="customer-name mb-3">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Sarah M." class="profile-img" />
+                    <h3>Sarah M. <i class="fas fa-check-circle"></i></h3>
+                  </div>
+  
+                  <!-- Testimonial Text -->
+                  <p class="testimonial-text">"I'm blown away by the quality and style..."</p>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="testimonial-card mb-4 shadow">
+                  <!-- Rating -->
+                  <div class="rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+  
+                  <!-- Customer Name and Image -->
+                  <div class="customer-name mb-3">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Alex K." class="profile-img" />
+                    <h3>Alex K. <i class="fas fa-check-circle"></i></h3>
+                  </div>
+  
+                  <!-- Testimonial Text -->
+                  <p class="testimonial-text">"Finding clothes that align with my personal style..."</p>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="testimonial-card mb-4 shadow">
+                  <!-- Rating -->
+                  <div class="rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+  
+                  <!-- Customer Name and Image -->
+                  <div class="customer-name mb-3">
+                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="James L." class="profile-img" />
+                    <h3>James L. <i class="fas fa-check-circle"></i></h3>
+                  </div>
+  
+                  <!-- Testimonial Text -->
+                  <p class="testimonial-text">"As someone who's always on the lookout for unique fashion pieces..."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- باقي الشرائح -->
+          <div class="carousel-item">
+            <div class="row justify-content-center gx-4">
+              <div class="col-md-4">
+                <div class="testimonial-card mb-4 shadow">
+                  <div class="rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="customer-name mb-3">
+                    <img src="https://randomuser.me/api/portraits/women/4.jpg" alt="Emma R." class="profile-img" />
+                    <h3>Emma R. <i class="fas fa-check-circle"></i></h3>
+                  </div>
+                  <p class="testimonial-text">"The customer service at Shop.co is exceptional..."</p>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="testimonial-card mb-4 shadow">
+                  <div class="rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="customer-name mb-3">
+                    <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="Michael T." class="profile-img" />
+                    <h3>Michael T. <i class="fas fa-check-circle"></i></h3>
+                  </div>
+                  <p class="testimonial-text">"The quality of their clothes is outstanding..."</p>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="testimonial-card mb-4 shadow">
+                  <div class="rating mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="customer-name mb-3">
+                    <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="Sophia P." class="profile-img" />
+                    <h3>Sophia P. <i class="fas fa-check-circle"></i></h3>
+                  </div>
+                  <p class="testimonial-text">"I love how Shop.co stays current with fashion trends..."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- يمكنك إضافة المزيد من الشرائح هنا بنفس الطريقة -->
+        </div>
+  
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+<!------------****************************************************---------------------->
+
+
+<footer class="bg-light text-dark py-5 border-top">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Brand and Description -->
+        <div class="col-md-3">
+          <h5 class="fw-bold">SHOP<span style="color: brown;font-weight: bold;">4</span>ME</h5>
+          <p class="text-muted small">
+            We have clothes that suit your style and which you're proud to wear.
+            From women to men.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#"><i class="bi bi-twitter fs-5"></i></a>
+            <a href="#"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#"><i class="bi bi-instagram fs-5"></i></a>
+            <a href="#"><i class="bi bi-github fs-5"></i></a>
+          </div>
+        </div>
+  
+        <!-- Footer Links -->
+        <div class="col-md">
+          <h6 class="fw-bold text-uppercase">Company</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Features</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Works</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Career</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h6 class="fw-bold text-uppercase">Help</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-decoration-none text-muted">Customer Support</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Delivery Details</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Terms & Conditions</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h6 class="fw-bold text-uppercase">FAQ</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-decoration-none text-muted">Account</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Manage Deliveries</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Orders</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Payments</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <h6 class="fw-bold text-uppercase">Resources</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-decoration-none text-muted">Free eBooks</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Development Tutorial</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">How to - Blog</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">YouTube Playlist</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Footer bottom -->
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-5 pt-3 border-top ">
+        <div class="text-center justify-content-center">
+            <a href="#" class="text-decoration-none text-muted">Terms of Service</a>
+            <span class="mx-2">|</span>
+            <a href="#" class="text-decoration-none text-muted">Privacy Policy</a>
+            <span class="mx-2">|</span>
+            <a href="#" class="text-decoration-none text-muted">Cookie Policy</a>
+            <p class="small text-muted mb-2 mb-md-0">Shop.co © 2000-2023, All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!-- Footer -->
+  
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>

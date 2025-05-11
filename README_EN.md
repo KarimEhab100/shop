@@ -41,7 +41,6 @@ shop/
 ## 📌 Notes
 
 - This project is still in its early stages and may receive more features soon.
-- No live demo is currently available.
 
 ## 👤 Developer
 
